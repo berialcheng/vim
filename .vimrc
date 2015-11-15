@@ -10,6 +10,8 @@ set incsearch
 set cursorline
 set tabstop=4
 
+set autoread
+
 " Shortcut mapping 
 map <F2> :echo 'Current time is ' . strftime('%c')<CR>
 map <F3> :echo 'abc'<CR>
@@ -23,6 +25,7 @@ map <C-;> :echo 'abc'<CR>
 let NERDTreeShowHidden=1
 let NERDTreeWinSize=30
 nmap <silent> nerd :NERDTreeToggle<cr>
+autocmd vimenter * if !argc() | NERDTree | endif " open NERDTree if there are no file open 
 
 " Settings against the WinManager plugin
 let g:winManagerWidth = 30
