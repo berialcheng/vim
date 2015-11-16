@@ -9,8 +9,27 @@ set hlsearch
 set incsearch
 set cursorline
 set tabstop=4
-
 set autoread
+
+" Auto complete
+:inoremap ( ()<ESC>i
+:inoremap ) <c-r>=ClosePair(')')<CR>
+:inoremap { {<CR>}<ESC>O
+:inoremap } <c-r>=ClosePair('}')<CR>
+:inoremap [ []<ESC>i
+:inoremap ] <c-r>=ClosePair(']')<CR>
+:inoremap " ""<ESC>i
+:inoremap ' ''<ESC>i
+function! ClosePair(char)
+    if getline('.')[col('.') - 1] == a:char
+        return "\<Right>"
+    else
+        return a:char
+    endif
+endfunction
+filetype on
+filetype plugin indent on 
+set completeopt=longest,menu
 
 " Shortcut mapping 
 map <F2> :echo 'Current time is ' . strftime('%c')<CR>
