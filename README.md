@@ -2,11 +2,12 @@
 
 ## How to use
 ### Add the symbolic link into your local configuarion like below
-    cd <vim_git_repository_path>
-	ln -s .vim ~/.vim
-	ln -s .vimrc ~/.vimrc
+    cd <repo_path>
+	ln -s `pwd`/.vim ~/
+	ln -s `pwd`/.vimrc ~/
 
-### Useful tips 
+### Useful shortcuts 
+    F2 -- show current date time
 	nerd -- open the left file system tree explorer
 	Ctrl-P -- open File lookup
 	
