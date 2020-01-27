@@ -1,7 +1,8 @@
-# Configuration for VIM
+# The ultimate vim configuration
 
 ## How to get started
-`./setup.sh`
+1. `git clone https://github.com/berialcheng/vim.git`
+2. `./setup.sh`
 
 ## Shortcuts 
 * `F2` -- show current date time
