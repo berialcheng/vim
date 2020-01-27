@@ -1,15 +1,25 @@
+" Setting 'compatible' changes numerous options to make Vim more Vi-compatible
+" so any other options should be set AFTER setting 'compatible'.
 set nocompatible
 
-set ruler
-set showcmd
+syntax on
+filetype on
+filetype plugin indent on 
+
+set t_Co=256
+colorscheme ron
+" colorscheme molokai
+
+set ruler " Ruler, used to display the row and column number of the position of the cursor, comma separated. Each window has its own scale. If the window has the state line, where the display scale. Otherwise, it is displayed in the last line.
+set showcmd " To show the commands
 set bg=dark
 set number
-syntax on
 set hlsearch
 set incsearch
 set cursorline
-set tabstop=4
+set tabstop=4 " Setting tab (TAB) width
 set autoread
+set mouse=a
 
 " Auto complete
 :inoremap ( ()<ESC>i
@@ -27,8 +37,7 @@ function! ClosePair(char)
         return a:char
     endif
 endfunction
-filetype on
-filetype plugin indent on 
+
 set completeopt=longest,menu
 
 " Shortcut mapping 
@@ -42,23 +51,26 @@ map <C-;> :echo 'abc'<CR>
  
 " Settings against the NERDTree plugin
 let NERDTreeShowHidden=1
-let NERDTreeWinSize=30
+let NERDTreeWinSize=31
 nmap <silent> nerd :NERDTreeToggle<cr>
-autocmd vimenter * if !argc() | NERDTree | endif " open NERDTree if there are no file open 
+" autocmd vimenter * if !argc() | NERDTree | endif " open NERDTree if there are no file open 
 
 " Settings against the WinManager plugin
 let g:winManagerWidth = 30
 let g:AutoOpenWinManager = 1
 
-let g:NERDTree_title="[NERDTree]"  
-let g:winManagerWindowLayout = 'FileExplorer,BufExplorer'
-"let g:winManagerWindowLayout="NERDTree"  
+" registers NERDTree with winmanager
+let g:NERDTree_title="[NERDTree]" 
 function! NERDTree_Start()  
-    exec 'NERDTreeToggle'  
+    exec 'q'
+    exec 'NERDTreeToggle' 
 endfunction  
 function! NERDTree_IsValid()  
     return 1  
 endfunction  
+
+" let g:winManagerWindowLayout = "FileExplorer,TagsExplorer|BufExplorer"
+let g:winManagerWindowLayout = "NERDTree,TagsExplorer|BufExplorer"  
 
 nmap <silent> wm :WMToggle<cr>
 
