@@ -8,7 +8,6 @@ filetype plugin indent on
 
 " set t_Co=256
 colorscheme desert
-" colorscheme molokai
 
 set ruler " Ruler, used to display the row and column number of the position of the cursor, comma separated. Each window has its own scale. If the window has the state line, where the display scale. Otherwise, it is displayed in the last line.
 set showcmd " To show the commands
@@ -83,6 +82,23 @@ let g:netrw_browse_split=2
 
 " Settings against Lookup File Plugin
 nmap <silent> <C-P> :LookupFile<cr>
+
+" Indent 
+" Vim
+let g:indentLine_color_term = 239
+
+" GVim
+let g:indentLine_color_gui = '#A4E57E'
+
+" none X terminal
+let g:indentLine_color_tty_light = 7 " (default: 4)
+let g:indentLine_color_dark = 1 " (default: 2)
+
+" Background (Vim, GVim)
+let g:indentLine_bgcolor_term = 202
+let g:indentLine_bgcolor_gui = '#FF5F00'
+
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 
 " Others
 " mapping the Ctrl+S(Q) to Save(Quit) Action

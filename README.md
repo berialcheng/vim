@@ -29,10 +29,15 @@
 * Ctrl-P -- open File lookup
 
 ## References
-1. [NERD_tree](https://github.com/preservim/nerdtree)
-2. mini buffer explorer
-3. lookup file
+* [NERD_tree](https://github.com/preservim/nerdtree)
+* mini buffer explorer
+* lookup file
+* [vim-airline](https://github.com/vim-airline/vim-airline) 
+* [indentLine](https://github.com/Yggdroot/indentLine)
 
 ## TODO
 - [] fix the NERDTree m break.
 - [] fix the `git commit` focus.
+- [] add more language support
+- [x] add vim-airline for statusline
+- [] add indentLine

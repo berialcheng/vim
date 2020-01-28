@@ -1,3 +1,6 @@
 # host dependent configuration files
 .vim/.netrwhist
 .vim/.netrwbook
+
+# MacOS
+.DS_Store
