@@ -36,8 +36,8 @@
 * [indentLine](https://github.com/Yggdroot/indentLine)
 
 ## TODO
-- [] fix the NERDTree m break.
-- [] fix the `git commit` focus.
-- [] add more language support
+- [ ] fix the NERDTree m break.
+- [ ] fix the `git commit` focus.
+- [ ] add more language support
 - [x] add vim-airline for statusline
-- [] add indentLine
+- [ ] add indentLine
