@@ -6,8 +6,8 @@ syntax on
 filetype on
 filetype plugin indent on 
 
-set t_Co=256
-colorscheme ron
+" set t_Co=256
+colorscheme desert
 " colorscheme molokai
 
 set ruler " Ruler, used to display the row and column number of the position of the cursor, comma separated. Each window has its own scale. If the window has the state line, where the display scale. Otherwise, it is displayed in the last line.
