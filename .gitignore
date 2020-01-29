@@ -4,3 +4,8 @@
 
 # MacOS
 .DS_Store
+
+# 
+*.swp
+*.swo
+*.swn

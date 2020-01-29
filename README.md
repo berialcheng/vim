@@ -1,5 +1,8 @@
 # The ultimate vim configuration
 
+## Screenshots
+![Preview](https://github.com/berialcheng/vim/raw/master/screenshots/preview.png)
+
 ## How to get started
 1. `git clone https://github.com/berialcheng/vim.git`
 2. `./setup.sh`
@@ -36,8 +39,12 @@
 * [indentLine](https://github.com/Yggdroot/indentLine)
 
 ## TODO
-- [ ] fix the NERDTree m break.
-- [ ] fix the `git commit` focus.
+- [ ] fix the NERDTree m break
+- [ ] fix the `git commit` focus
+- [ ] fix mini buf expl hanging issue
 - [ ] add more language support
 - [x] add vim-airline for statusline
 - [ ] add indentLine
+- [x] filter out files in NERDTree
+- [x] add screenshot
+- [x] tuning the mini buf expl config

@@ -53,6 +53,7 @@ let NERDTreeShowHidden=1
 let NERDTreeWinSize=31
 nmap <silent> nerd :NERDTreeToggle<cr>
 " autocmd vimenter * if !argc() | NERDTree | endif " open NERDTree if there are no file open 
+let NERDTreeIgnore = ['\.git', '\.pyc$', '\.DS_Store', '\.swp', '\.swo', '\.swn']
 
 " Settings against the WinManager plugin
 let g:winManagerWidth = 30
@@ -82,6 +83,10 @@ let g:netrw_browse_split=2
 
 " Settings against Lookup File Plugin
 nmap <silent> <C-P> :LookupFile<cr>
+
+" miniBufExplorer
+let g:miniBufExplorerMoreThanOne = 0
+let g:miniBufExplUseSingleClick = 1
 
 " Indent 
 " Vim
