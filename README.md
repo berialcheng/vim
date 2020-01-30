@@ -48,3 +48,4 @@
 - [x] filter out files in NERDTree
 - [x] add screenshot
 - [x] tuning the mini buf expl config
+- [ ] add search support
