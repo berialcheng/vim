@@ -53,7 +53,7 @@ let NERDTreeShowHidden=1
 let NERDTreeWinSize=31
 nmap <silent> nerd :NERDTreeToggle<cr>
 " autocmd vimenter * if !argc() | NERDTree | endif " open NERDTree if there are no file open 
-let NERDTreeIgnore = ['\.git', '\.pyc$', '\.DS_Store', '\.swp', '\.swo', '\.swn']
+let NERDTreeIgnore = ['\.git', '\.pyc$', '\.DS_Store', '\.swp', '\.swo', '\.swn', '\.idea', '\.iml']
 
 " Settings against the WinManager plugin
 let g:winManagerWidth = 30
