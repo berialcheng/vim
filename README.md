@@ -31,12 +31,16 @@
 ### Lookupfile
 * Ctrl-P -- open File lookup
 
+### Ferret - multi-file search
+
 ## References
 * [NERD_tree](https://github.com/preservim/nerdtree)
 * mini buffer explorer
 * lookup file
 * [vim-airline](https://github.com/vim-airline/vim-airline) 
 * [indentLine](https://github.com/Yggdroot/indentLine)
+* [ferret](https://github.com/wincent/ferret)
+* [Vim Search, Find and Replace: Commands and Plugins](https://thevaluable.dev/vim-search-find-replace/)
 
 ## TODO
 - [ ] fix the NERDTree m break
@@ -48,4 +52,4 @@
 - [x] filter out files in NERDTree
 - [x] add screenshot
 - [x] tuning the mini buf expl config
-- [ ] add search support
+- [x] add search support
