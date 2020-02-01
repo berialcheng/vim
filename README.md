@@ -53,3 +53,4 @@
 - [x] add screenshot
 - [x] tuning the mini buf expl config
 - [x] add search support
+- [ ] add git support
