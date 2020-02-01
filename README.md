@@ -8,7 +8,7 @@
 2. `./setup.sh`
 
 ## Intro
-## Vanilla Vim Capabilities
+### Vanilla Vim Capabilities
 * `F2` -- show current date time
 * `h` to go left, `j` to go down, `k` to go up, `l` to go right
 * hit `CTRL-]`, Jump to a subject. Type `CTRL-T` or `CTRL-O`.  Repeat to go further back
