@@ -3,11 +3,12 @@
 ## Screenshots
 ![Preview](https://github.com/berialcheng/vim/raw/master/screenshots/preview.png)
 
-## How to get started
+## Installation
 1. `git clone https://github.com/berialcheng/vim.git`
 2. `./setup.sh`
 
-## Shortcuts 
+## Intro
+## Vanilla Vim Capabilities
 * `F2` -- show current date time
 * `h` to go left, `j` to go down, `k` to go up, `l` to go right
 * hit `CTRL-]`, Jump to a subject. Type `CTRL-T` or `CTRL-O`.  Repeat to go further back
