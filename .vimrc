@@ -81,8 +81,22 @@ let g:netrw_liststyle=3
 let g:netrw_winsize=30
 let g:netrw_browse_split=2
 
+" Replaced by ctrlp
 " Settings against Lookup File Plugin
-nmap <silent> <C-P> :LookupFile<cr>
+" nmap <silent> <C-P> :LUWalk<cr>
+
+" ctrlp
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_by_filename = 1
+let g:ctrlp_match_window_bottom = 1
+let g:ctrlp_max_height = 20
+let g:ctrlp_clear_cache_on_exit = 1 
+let g:ctrlp_cache_dir = $HOME.'/.cache/ctrlp'
+let g:ctrlp_show_hidden = 1
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
+let g:ctrlp_max_files = 0
+let g:ctrlp_lazy_update = 1 " update after 250 milliseconds
 
 " miniBufExplorer
 let g:miniBufExplorerMoreThanOne = 0

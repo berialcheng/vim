@@ -3,6 +3,8 @@
 ## Screenshots
 ![Preview](https://github.com/berialcheng/vim/raw/master/screenshots/preview.png)
 
+![Search file](https://github.com/berialcheng/vim/raw/master/screenshots/search_file.png)
+
 ## Installation
 1. `git clone https://github.com/berialcheng/vim.git`
 2. `./setup.sh`
@@ -29,8 +31,10 @@
 * `m`: Show the NERD Tree menu
 * `R`: Refresh the tree, useful if files change outside of Vim
 
-### Lookupfile
+### ctrlp
 * `Ctrl-P` -- open File lookup
+* Press `c-f` and `c-b` to cycle between modes.
+
 
 ### Ferret - multi-file search
 * `:Ack {pattern} {options}`
@@ -44,6 +48,8 @@
 * [indentLine](https://github.com/Yggdroot/indentLine)
 * [ferret](https://github.com/wincent/ferret)
 * [Vim Search, Find and Replace: Commands and Plugins](https://thevaluable.dev/vim-search-find-replace/)
+* [ctrlp](https://github.com/kien/ctrlp.vim)
+* [Vim Awesome](https://vimawesome.com/)
 
 ## TODO
 - [ ] fix the NERDTree m break
