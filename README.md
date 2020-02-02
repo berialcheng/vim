@@ -34,7 +34,7 @@
 
 ### Ferret - multi-file search
 * `:Ack {pattern} {options}`
-* `:Ack! {pattern} {options}` -- Like :Ack, but returns all results irrespective of the value of g:FerretMaxResults.
+* `:Ack! {pattern} {options}` -- Like `:Ack`, but returns all results irrespective of the value of `g:FerretMaxResults`.
 
 ## References
 * [NERD_tree](https://github.com/preservim/nerdtree)
