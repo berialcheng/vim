@@ -58,6 +58,7 @@ let NERDTreeIgnore = ['\.git', '\.pyc$', '\.DS_Store', '\.swp', '\.swo', '\.swn'
 " Settings against the WinManager plugin
 let g:winManagerWidth = 30
 let g:AutoOpenWinManager = 1
+let g:persistentBehaviour = 1
 
 " registers NERDTree with winmanager
 let g:NERDTree_title="[NERDTree]" 

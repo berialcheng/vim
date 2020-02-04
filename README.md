@@ -55,7 +55,7 @@
 - [ ] fix the NERDTree m break
 - [ ] fix the `git commit` focus
 - [ ] fix mini buf expl hanging issue
-- [ ] add more language support
+- [x] add more language support
 - [x] add vim-airline for statusline
 - [ ] add indentLine
 - [x] filter out files in NERDTree
