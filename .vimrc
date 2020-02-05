@@ -40,8 +40,8 @@ endfunction
 set completeopt=longest,menu
 
 " Shortcut mapping 
-map <F2> :echo 'Current time is ' . strftime('%c')<CR>
-map <F3> :echo 'abc'<CR>
+" "map <F2> :echo 'Current time is ' . strftime('%c')<CR>
+" "map <F3> :echo 'abc'<CR>
 map <C-;> :echo 'abc'<CR>
 
 
@@ -124,5 +124,6 @@ let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 " mapping the Ctrl+S(Q) to Save(Quit) Action
 " add 'stty -ixon' into .bashrc file in order to make this happen if necessary 
 nmap <silent> <C-Q> :q<cr>
-nmap <C-S> :w<cr>
-
+nmap <C-s> :w<cr>
+nmap <F2> :w<cr>
+nmap <F4> :qa<cr>
