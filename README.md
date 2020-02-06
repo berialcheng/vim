@@ -51,6 +51,7 @@
 * [Vim Search, Find and Replace: Commands and Plugins](https://thevaluable.dev/vim-search-find-replace/)
 * [ctrlp](https://github.com/kien/ctrlp.vim)
 * [Vim Awesome](https://vimawesome.com/)
+* [Vim fugitive](https://github.com/tpope/vim-fugitive)
 
 ## TODO
 - [ ] fix the NERDTree m break
@@ -63,4 +64,4 @@
 - [x] add screenshot
 - [x] tuning the mini buf expl config
 - [x] add search support
-- [ ] add git support
+- [x] add git support
