@@ -59,7 +59,7 @@
 - [ ] fix mini buf expl hanging issue
 - [x] add more language support
 - [x] add vim-airline for statusline
-- [ ] add indentLine
+- [x] add indentLine
 - [x] filter out files in NERDTree
 - [x] add screenshot
 - [x] tuning the mini buf expl config
