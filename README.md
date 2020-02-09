@@ -65,3 +65,4 @@
 - [x] tuning the mini buf expl config
 - [x] add search support
 - [x] add git support
+- [ ] add github release
