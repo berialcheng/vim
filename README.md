@@ -1,5 +1,7 @@
 # The ultimate vim configuration
 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]()
+
 ## Screenshots
 ![Preview](https://github.com/berialcheng/vim/raw/master/screenshots/preview.png)
 
