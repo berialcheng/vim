@@ -2,6 +2,10 @@
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)]()
 
+[![GitHub stars](https://img.shields.io/github/stars/berialcheng/vim.svg?style=social&label=Stars&style=plastic)]()
+[![GitHub watchers](https://img.shields.io/github/watchers/berialcheng/vim.svg?style=social&label=Watch&style=plastic)]()
+[![GitHub forks](https://img.shields.io/github/forks/berialcheng/vim.svg?style=social&label=Fork&style=plastic)]()
+
 ## Screenshots
 ![Preview](https://github.com/berialcheng/vim/raw/master/screenshots/preview.png)
 
