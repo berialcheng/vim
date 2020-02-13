@@ -15,10 +15,13 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
+    - name: package
+      run: |
+        tar -czf vim.tar.gz screenshots .vim .vimrc README.md
     - name: Upload release
       uses: yakuhzi/action-release@v1
       with:
-        file: /path/to/asset.ext
-        changelog: /path/to/CHANGELOG.txt
+        file: vim.tar.gz
+        #changelog: /path/to/CHANGELOG.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
