@@ -18,10 +18,10 @@ jobs:
     - name: package
       run: |
         tar -czf vim.tar.gz screenshots .vim .vimrc README.md
-    - name: Upload release
-      uses: yakuhzi/action-release@v1
-      with:
-        file: vim.tar.gz
-        #changelog: /path/to/CHANGELOG.txt
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+#     - name: Upload release
+#       uses: yakuhzi/action-release@v1
+#       with:
+#         file: vim.tar.gz
+#         #changelog: /path/to/CHANGELOG.txt
+#       env:
+#         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
