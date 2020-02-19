@@ -15,9 +15,9 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - name: package
-      run: |
-        tar -czf vim.tar.gz screenshots .vim .vimrc README.md
+        #    - name: package
+        #run: |
+        #tar -czf vim.tar.gz screenshots .vim .vimrc README.md
 #     - name: Upload release
 #       uses: yakuhzi/action-release@v1
 #       with:
