@@ -24,7 +24,7 @@ jobs:
       uses: datreeio/validate-license-action@v1.0.0
       continue-on-error: true
       timeout-minutes: 30
-      id: hello
+    #  id: hello
     #- name: Run a multi-line script
     #  run: |
     #    echo Add other actions to build,
