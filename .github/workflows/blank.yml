@@ -20,10 +20,10 @@ jobs:
     #    issue-message: # optional
         # Comment to post on an individuals first pull request
     #    pr-message: # optional
-    - name: validate-license-action
-      uses: datreeio/validate-license-action@v1.0.0
-      continue-on-error: true
-      timeout-minutes: 30
+    #- name: validate-license-action
+    #  uses: datreeio/validate-license-action@v1.0.0
+    #  continue-on-error: true
+    #  timeout-minutes: 30
     #  id: hello
     #- name: Run a multi-line script
     #  run: |
