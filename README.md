@@ -7,7 +7,7 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/berialcheng/vim.svg?style=social&label=Watch&style=plastic)]()
 [![GitHub forks](https://img.shields.io/github/forks/berialcheng/vim.svg?style=social&label=Fork&style=plastic)]()
 
-## Screenshots
+## Preview
 ![Preview](https://github.com/berialcheng/vim/raw/master/screenshots/preview.png)
 
 ![Search file](https://github.com/berialcheng/vim/raw/master/screenshots/search_file.png)
