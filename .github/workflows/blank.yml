@@ -12,9 +12,9 @@ jobs:
     - name: Run a one-line script
       run: echo Hello, world!
       id: helloworld
-    - name: Close Stale Issues
-      uses: actions/stale@v3.0.6
-      with:
+    #- name: Close Stale Issues
+    #  uses: actions/stale@v3.0.6
+    #  with:
         # Token for the repository. Can be passed in using `{{ secrets.GITHUB_TOKEN }}`.
         repo-token: {{ secrets.GITHUB_TOKEN }}
     #- name: First interaction
